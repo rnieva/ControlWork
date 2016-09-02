@@ -145,7 +145,7 @@ namespace ControlWork
         { //improve: add if when there is no Internet
             disLabel.Text = "";
             gmap.Overlays.Clear();
-            var address = "EH3 9JZ";
+            var address = "EH3 9JX"; // home location
             var locationService = new GoogleLocationService(); //Install-Package GoogleMaps.LocationServices ,for get position
             var point= locationService.GetLatLongFromAddress(address);
             if (point != null)
@@ -155,7 +155,7 @@ namespace ControlWork
                 //GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.CacheOnly; // se cached information (if available) to show your maps
                 gmap.MapProvider = GMap.NET.MapProviders.GoogleMapProvider.Instance;
                 GMap.NET.GMaps.Instance.Mode = GMap.NET.AccessMode.ServerOnly;
-                gmap.SetPositionByKeywords("EH3 9JZ"); // My home
+                gmap.SetPositionByKeywords("EH3 9JX"); // home location
                 GMapOverlay markersOverlay = new GMapOverlay("markers");
                 GMarkerGoogle marker = new GMarkerGoogle(new PointLatLng(latitude, longitude), GMarkerGoogleType.green); // My home
                 marker.ToolTipText = "My Home";
@@ -185,12 +185,12 @@ namespace ControlWork
             if (item.ToolTipText != "My Home") //for avoid a error in myself
             {
                 gmap.Overlays.Clear();
-                var address = "EH3 9JZ";
+                var address = "EH3 9JX";
                 var locationService = new GoogleLocationService();
                 var point = locationService.GetLatLongFromAddress(address);
                 var latitude = point.Latitude;
                 var longitude = point.Longitude;
-                gmap.SetPositionByKeywords("EH3 9JZ"); // My home
+                gmap.SetPositionByKeywords("EH3 9JX"); // My home
                 GMapOverlay routesOverlay = new GMapOverlay("markers");
                 GMarkerGoogle marker = new GMarkerGoogle(new PointLatLng(latitude, longitude), GMarkerGoogleType.green); // My home
                 marker.ToolTipText = "My Home";
