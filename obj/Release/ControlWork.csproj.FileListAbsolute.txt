@@ -1,0 +1,14 @@
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\ControlWork.exe.config
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\ControlWork.exe
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\ControlWork.pdb
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\EntityFramework.dll
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\EntityFramework.SqlServer.dll
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\EntityFramework.xml
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\bin\Release\EntityFramework.SqlServer.xml
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.csprojResolveAssemblyReference.cache
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.Form1.resources
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.Form2.resources
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.Properties.Resources.resources
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.csproj.GenerateResource.Cache
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.exe
+c:\users\rob\documents\visual studio 2015\Projects\ControlWork\ControlWork\obj\Release\ControlWork.pdb
