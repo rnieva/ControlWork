@@ -35,7 +35,6 @@ namespace ControlWork
         {
             textStepsBox.Visible = false;
             var dbContext = new DemoContext();
-            //System.Collections.ObjectModel.ObservableCollection<DataReg> valuesBd = new System.Collections.ObjectModel.ObservableCollection<DataReg>();
             List<DataReg> valuesBd = new List<DataReg>();
             List<string> zipCodes = new List<string>();
             List<string> infoSites = new List<string>();
@@ -547,7 +546,6 @@ namespace ControlWork
             chart1.Titles.Add("Earned per Week");
             chart1.ChartAreas[0].AxisX.Title = "Number Of Week";
             chart1.ChartAreas[0].AxisY.Title = "Earned";
-            //chart1.Series["Series1"].IsValueShownAsLabel = true; //label each bar
             for (int i = 0; i < infoNumerOfWeek.Count; i++)
             {
                 series1.Points.AddXY(infoNumerOfWeek[i],earnedWeek[i]);

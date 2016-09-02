@@ -17,7 +17,7 @@ namespace ControlWork
         private int nColum2;
         private bool flagCheckBox=false;
         private MainPlace newMainPlace = new MainPlace(); //for a assignment
-        public EditItem(String strSelect, int nFileEdit, int nColum, MainPlace form)
+        public EditItem(String strSelect, int nFileEdit, int nColum, MainPlace form) //can be different name
         {
             InitializeComponent();
             if ((strSelect == "False") || (strSelect == "True"))
@@ -28,7 +28,7 @@ namespace ControlWork
                 flagCheckBox = true;
             }
             textBox1Edit.Text = strSelect; //field for edit from Form2
-            newMainPlace = form;  //assignment from form (2 original to new form)
+            newMainPlace = form;  //assignment from mainplace origianal to new mainplace
             nFileEdit2 = nFileEdit; //to know later the ID number
             nColum2 = nColum; //to know later the field to edit
         }
